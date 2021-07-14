@@ -1,0 +1,5 @@
+no,username,password,expected error message,description
+1,incorrectUsername,SuperSecretPassword!,Your username is invalid!,incorrect username
+2,tomsmith,incorrectPassword,Your password is invalid!,incorrect password
+3,incorrectUsername,incorrectPassword,Your username is invalid!,incorrect username and password
+4,,SuperSecretPassword!,Your username is invalid!,blank username
